@@ -19,7 +19,7 @@ void bitonic_sort(int *array, size_t size)
  * @l: index of the left-most element
  * @r: index of the right-most element
  * @direction: ascending or descending
- * @size; size of the array
+ * @size: size of the array
  */
 void bitonic_recursion(int *array, int l, int r, int direction, size_t size)
 {

@@ -46,7 +46,7 @@ void count_sort_LSD(int *array, size_t size, size_t lsd)
 	for (m = size - 1; m >= 0; m--)
 	{
 		out_arr[count_arr[(array[m] / lsd) % 10] - 1] = array[m];
-		count_arr[(array[m] / lsd) %10]--;
+		count_arr[(array[m] / lsd) % 10]--;
 	}
 
 	for (n = 0; n < size; n++)

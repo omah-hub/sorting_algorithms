@@ -38,7 +38,6 @@ void quick_recursion(int *array, int left, int right, size_t size)
  * @left: index of the left element
  * @right: index of the right element
  * @size: index of the right element
- * 
  * Return: the index of the piv element
  */
 int partition(int *array, int left, int right, size_t size)
@@ -52,7 +51,7 @@ int partition(int *array, int left, int right, size_t size)
 	{
 		do {
 			i++;
-		}while (array[i] < pivot);
+		} while (array[i] < pivot);
 		do {
 			j--;
 		} while (array[i] > pivot);

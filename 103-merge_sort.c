@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * merge_ssort - sorts an array with the Merge Sort algorithm
+ * merge_sort - sorts an array with the Merge Sort algorithm
  * @array: array of ints to sort
  * @size: size of the array
  */
