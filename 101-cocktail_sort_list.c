@@ -23,7 +23,7 @@ size_t list_len(listint_t *list)
  * @list: head of list
  * @p: pointer to the node
  */
-void switch_nodes(listint_t **list, listint_t *p)
+void switch_nodes(listint_t **list, listint_t **p)
 {
 	listint_t *one, *two, *three, *four;
 

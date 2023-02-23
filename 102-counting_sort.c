@@ -7,18 +7,18 @@
  */
 void counting_sort(int *array, size_t size)
 {
-	int *count_arr, *out_arr, max, num, j, i;
+	int *count_arr, *out_arr, max, num, j, l;
 	size_t i, k, m, n;
 
 	if (size < 2)
 		return;
 	max = array[0];
-	for (i = 1; i < sze; i++)
+	for (i = 1; i < size; i++)
 		if (array[i] > max)
 			max = array[i];
 
 	count_arr = malloc(sizeof(size_t) * (max + 1));
-	out_arr = malloc(size0f(int) * size);
+	out_arr = malloc(sizeof(int) * size);
 
 	for (j = 0; j <= max; j++)
 		count_arr[j] = 0;
