@@ -33,7 +33,7 @@ void merge_recursion(int *arr, int *array, size_t left, size_t right)
 	{
 		middle = (right - left) / 2 + left;
 		merge_recursion(arr, array, left, middle);
-		merge_recurdion(arr, array, middle, right);
+		merge_recursion(arr, array, middle, right);
 		merge_subarray(arr, array, left, middle, right);
 	}
 }
